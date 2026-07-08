@@ -1,0 +1,10 @@
+#9.Write a Python program to check whether a character is uppercase or lowercase alphabet.
+
+chrValue = str(input('Enter character :'))
+
+if chrValue.isupper():
+  print(f"'{chrValue}' is upper case")
+elif chrValue.islower():
+  print(f"'{chrValue}' is lower case")
+else :
+  print("Entered value us not upper or lower")
