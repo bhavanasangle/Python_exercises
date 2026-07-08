@@ -1,0 +1,9 @@
+#8.Write a Python program to input any alphabet and check whether it is vowel or consonant.
+
+inputVal = str(input('Enter a aplhabet'))
+
+if inputVal in 'aeiou':
+  print("It is vowel")
+else:
+  print('It is not a vowel')
+
